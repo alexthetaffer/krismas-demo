@@ -772,12 +772,12 @@ button.ceiling-types__prev {
     .ceiling-types__type-content {
         font-size: 85%;
     }
-        .lights-slider__title, .lights-slider__price {
+    .lights-slider__title,
+    .lights-slider__price {
         font-size: 85%;
     }
 }
 @media screen and (max-width: 600px) {
-
     .krismas-portfolio-gallery {
         grid-template-columns: 1fr 1fr;
     }
