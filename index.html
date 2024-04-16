@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Krismas-blocks</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section id="additional-services" class="container">
+            <button class="additional-services__btn">
+                Цены на дополнительные услуги
+            </button>
+            <div class="additional-services__content">
+                <div class="additional-services__table-wrapper">
+                    <table class="additional-services__table">
+                        <thead>
+                            <tr>
+                                <th>Наименование</th>
+                                <th>Количество</th>
+                                <th>Стоимость</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Обвод трубы диаметром более 50 мм</td>
+                                <td>1 шт.</td>
+                                <td>Договорная</td>
+                            </tr>
+                            <tr>
+                                <td>Установка каркаса под люстру потолочную</td>
+                                <td>1 шт.</td>
+                                <td>Бесплатно</td>
+                            </tr>
+                            <tr>
+                                <td>Установка каркаса под люстру потолочную</td>
+                                <td>1 шт.</td>
+                                <td>Бесплатно</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="additional-services__table">
+                        <thead>
+                            <tr>
+                                <th>Наименование</th>
+                                <th>Количество</th>
+                                <th>Стоимость</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Установка вентиляционной решетки в потолок
+                                    диам. 50 мм
+                                </td>
+                                <td>1 шт.</td>
+                                <td>15 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Установка вентиляционной решетки в потолок
+                                    диам. 100 мм
+                                </td>
+                                <td>1 шт.</td>
+                                <td>20 руб.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section id="krismas-portfolio" class="container">
+            <h2 class="krismas-title">ФОТО НАТЯЖНЫХ ПОТОЛКОВ - НАШИ РАБОТЫ</h2>
+            <ul class="krismas-filter-buttons">
+                <!-- Аттрибут data-category у кнопок должен соответствовать такому же аттрибуту у элементов галереи -->
+                <li>
+                    <button
+                        class="krismas-filter-button active"
+                        data-category="линии"
+                    >
+                        Световые линии
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="krismas-filter-button"
+                        data-category="тканевые"
+                    >
+                        Тканевые
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="krismas-filter-button"
+                        data-category="глянцевые"
+                    >
+                        Глянцевые
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="krismas-filter-button"
+                        data-category="двойные"
+                    >
+                        Двухуровневые
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="krismas-filter-button"
+                        data-category="звезды"
+                    >
+                        Звездное небо
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="krismas-filter-button"
+                        data-category="контур"
+                    >
+                        Контурные
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="krismas-filter-button"
+                        data-category="матовые"
+                    >
+                        Матовые
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="krismas-filter-button"
+                        data-category="парящие"
+                    >
+                        Парящие
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="krismas-filter-button"
+                        data-category="перфорированные"
+                    >
+                        Перфорированные
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="krismas-filter-button"
+                        data-category="фотопечать"
+                    >
+                        С фотопечатью
+                    </button>
+                </li>
+                <li>
+                    <button class="krismas-filter-button" data-category="сатин">
+                        Сатин
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="krismas-filter-button"
+                        data-category="световые"
+                    >
+                        Светопропускные
+                    </button>
+                </li>
+            </ul>
+
+            <div class="krismas-portfolio-gallery">
+                <!-- Добавляем соответствующий аттрибут data-category к каждому элементу -->
+                <a
+                    href="./images/gallery/lines_1.jpg"
+                    class="portfolio-item"
+                    data-category="линии"
+                >
+                    <img src="./images/gallery/lines_1.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/lines_2.jpg"
+                    class="portfolio-item"
+                    data-category="линии"
+                    ><img src="./images/gallery/lines_2.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/fabric_1.jpg"
+                    class="portfolio-item"
+                    data-category="тканевые"
+                    ><img src="./images/gallery/fabric_1.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/fabric_2.jpg"
+                    class="portfolio-item"
+                    data-category="тканевые"
+                    ><img src="./images/gallery/fabric_2.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/glossy_1.jpg"
+                    class="portfolio-item"
+                    data-category="глянцевые"
+                    ><img src="./images/gallery/glossy_1.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/glossy_2.jpg"
+                    class="portfolio-item"
+                    data-category="глянцевые"
+                    ><img src="./images/gallery/glossy_2.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/2layers_1.jpg"
+                    class="portfolio-item"
+                    data-category="двойные"
+                    ><img src="./images/gallery/2layers_1.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/2layers_2.jpg"
+                    class="portfolio-item"
+                    data-category="двойные"
+                    ><img src="./images/gallery/2layers_2.jpg" alt=""
+                /></a>
+
+                <a
+                    href="./images/gallery/stars_1.jpg"
+                    class="portfolio-item"
+                    data-category="звезды"
+                    ><img src="./images/gallery/stars_1.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/stars_2.jpg"
+                    class="portfolio-item"
+                    data-category="звезды"
+                    ><img src="./images/gallery/stars_2.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/stars_1.jpg"
+                    class="portfolio-item"
+                    data-category="контур"
+                    ><img src="./images/gallery/contour_1.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/contour_2.jpg"
+                    class="portfolio-item"
+                    data-category="контур"
+                    ><img src="./images/gallery/contour_2.jpg" alt=""
+                /></a>
+
+                <a
+                    href="./images/gallery/mat_1.jpg"
+                    class="portfolio-item"
+                    data-category="матовые"
+                    ><img src="./images/gallery/mat_1.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/mat_2.jpg"
+                    class="portfolio-item"
+                    data-category="матовые"
+                    ><img src="./images/gallery/mat_2.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/float_1.jpg"
+                    class="portfolio-item"
+                    data-category="парящие"
+                    ><img src="./images/gallery/float_1.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/float_2.jpg"
+                    class="portfolio-item"
+                    data-category="парящие"
+                    ><img src="./images/gallery/float_2.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/lines_2.jpg"
+                    class="portfolio-item"
+                    data-category="перфорированные"
+                    ><img src="./images/gallery/lines_2.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/lines_1.jpg"
+                    class="portfolio-item"
+                    data-category="перфорированные"
+                    ><img src="./images/gallery/lines_1.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/photo_1.jpg"
+                    class="portfolio-item"
+                    data-category="фотопечать"
+                    ><img src="./images/gallery/photo_1.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/photo_2.jpg"
+                    class="portfolio-item"
+                    data-category="фотопечать"
+                    ><img src="./images/gallery/photo_2.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/satin_1.jpg"
+                    class="portfolio-item"
+                    data-category="сатин"
+                    ><img src="./images/gallery/satin_1.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/satin_2.jpg"
+                    class="portfolio-item"
+                    data-category="сатин"
+                    ><img src="./images/gallery/satin_2.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/light_1.jpg"
+                    class="portfolio-item"
+                    data-category="световые"
+                    ><img src="./images/gallery/light_1.jpg" alt=""
+                /></a>
+                <a
+                    href="./images/gallery/light_2.jpg"
+                    class="portfolio-item"
+                    data-category="световые"
+                    ><img src="./images/gallery/light_2.jpg" alt=""
+                /></a>
+            </div>
+        </section>
+
+        <section id="krismas-ceiling-types" class="ceiling-types container">
+            <h3>Тип потолка</h3>
+            <ul class="ceiling-types__cats">
+                <li>
+                    <button
+                        class="ceiling-types__cat-btn active"
+                        data-category="треки"
+                    >
+                        Треки
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="ceiling-types__cat-btn"
+                        data-category="парящие-линии"
+                    >
+                        Парящие линии
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="ceiling-types__cat-btn"
+                        data-category="парящие"
+                    >
+                        Парящий
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="ceiling-types__cat-btn"
+                        data-category="apply"
+                    >
+                        Резной Apply
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="ceiling-types__cat-btn"
+                        data-category="многослойные"
+                    >
+                        Многоуровневые
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="ceiling-types__cat-btn"
+                        data-category="двойные"
+                    >
+                        Двухуровневые с подсветкой
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="ceiling-types__cat-btn"
+                        data-category="эксклюзивные"
+                    >
+                        Эксклюзивный
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="ceiling-types__cat-btn"
+                        data-category="глянцевые"
+                    >
+                        Глянцевый
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="ceiling-types__cat-btn"
+                        data-category="матовые"
+                    >
+                        Матовый
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="ceiling-types__cat-btn"
+                        data-category="сатин"
+                    >
+                        Сатиновый
+                    </button>
+                </li>
+                <li>
+                    <button
+                        class="ceiling-types__cat-btn"
+                        data-category="фотопечать"
+                    >
+                        Фотопечать
+                    </button>
+                </li>
+            </ul>
+
+            <div class="ceiling-types__items-wrapper">
+                <button class="ceiling-types__prev">
+                    <img src="./images/icons/arrow-left.svg" alt="" />
+                </button>
+                <button class="ceiling-types__next">
+                    <img src="./images/icons/arrow-right.svg" alt="" />
+                </button>
+
+                <!-- Тип потолка: треки -->
+                <div
+                    class="ceiling-types__type-item active"
+                    data-category="треки"
+                >
+                    <div class="ceiling-types__type-gallery swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- Слайды с фото -->
+
+                            <div class="swiper-slide">
+                                <img
+                                    src="./images/gallery/2layers_1.jpg"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img
+                                    src="./images/gallery/2layers_2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="ceiling-types__type-content">
+                        <h3>Трековое освещение</h3>
+                        <p>
+                            <strong>ТРЕНД 2021 года!</strong> Трековое освещение
+                            это самый широко распространённый вариант оформления
+                            потолочного освещения по мнению и рендерам
+                            дизайнеров в 2021 году! Кроме того что черная
+                            (белая) трековая система с поворотными светильниками
+                            смотрится невероятно модно на потолке, ее основной
+                            плюс заключается в том что зонирование освещения
+                            может меняться каждый день в зависимости от ситуации
+                            так как светильники имеют поворотный корпус и легко
+                            "ходят" по рельсе трекового шинопровода.
+                        </p>
+                        <!-- Указываем цену -->
+                        <div class="ceiling-types__price">750 руб./м²</div>
+                        <button class="ceiling-types__btn">
+                            Вызвать замерщика
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Тип потолка: парящие линии -->
+                <div
+                    class="ceiling-types__type-item"
+                    data-category="парящие-линии"
+                >
+                    <div class="ceiling-types__type-gallery swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- Слайды с фото -->
+
+                            <div class="swiper-slide">
+                                <img
+                                    src="./images/gallery/float_1.jpg"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img
+                                    src="./images/gallery/float_2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="ceiling-types__type-content">
+                        <h3>Парящие линии</h3>
+                        <p>
+                            <strong>ХИТ!!!</strong> Последняя разработка решения
+                            для встроенного света от дизайнеров интерьера,
+                            благодаря которой любой потолок превращается в
+                            уникальный по дизайну и позволяет визуально
+                            зонировать пространство. Внешне парящая линия
+                            представляет собой встроенную в потолок светополосу.
+                            Идеальное решение для вытянутых помещений и
+                            квартир-студий
+                        </p>
+
+                        <!-- Указываем цену -->
+                        <div class="ceiling-types__price">750 руб./м²</div>
+                        <button class="ceiling-types__btn">
+                            Вызвать замерщика
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Добавляем остальные карточки с типами потолков -->
+            </div>
+        </section>
+
+        <section id="room-type-prices" class="room-type-prices container">
+            <h2>Натяжные потолки цены</h2>
+            <ul class="room-type-prices__buttons">
+                <li>
+                    <button class="active" data-category="кухня">Кухня</button>
+                </li>
+                <li><button data-category="спальня">Спальня</button></li>
+                <li><button data-category="ванная">Ванная</button></li>
+                <li><button data-category="гостиная">Гостиная</button></li>
+                <li><button data-category="студия">Студия</button></li>
+                <li><button data-category="детская">Детская</button></li>
+                <li><button data-category="прихожая">Прихожая</button></li>
+            </ul>
+            <div class="room-type-prices__items">
+                <!-- Добавляем карточки с ценами, не забываем указать аттрибут data-category -->
+
+                <div class="room-type-prices__item" data-category="кухня">
+                    <div class="room-type-prices__item-head">
+                        <div class="room-type-prices__image-container">
+                            <a
+                                class="room-type-prices__item-img"
+                                href="./images/gallery/glossy_1.jpg"
+                                ><img
+                                    src="./images/gallery/glossy_1.jpg"
+                                    alt="Фото потолка"
+                            /></a>
+                        </div>
+                        <h3>Натяжной потолок в кухне</h3>
+                    </div>
+
+                    <!-- Детали выполненной работы -->
+                    <div class="room-type-prices__item-params">
+                        <!-- Площадь -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-focus_2.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Площадь
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                12 м<sup>2</sup>
+                            </div>
+                        </div>
+                        <!-- Периметр -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-focus.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Периметр
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                14 м.п.
+                            </div>
+                        </div>
+                        <!-- Свет -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-brightness.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Свет
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                4000 K
+                            </div>
+                        </div>
+                        <!-- Контурная подсветка -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-brightness_2.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Контурная подсветка
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                3 м.п.
+                            </div>
+                        </div>
+
+                        <button>Рассчитать стоимость</button>
+                    </div>
+                </div>
+
+                <div class="room-type-prices__item" data-category="кухня">
+                    <div class="room-type-prices__item-head">
+                        <div class="room-type-prices__image-container">
+                            <a
+                                class="room-type-prices__item-img"
+                                href="./images/gallery/glossy_2.jpg"
+                                ><img
+                                    src="./images/gallery/glossy_2.jpg"
+                                    alt="Фото потолка"
+                            /></a>
+                        </div>
+                        <h3>Натяжной потолок в кухне</h3>
+                    </div>
+
+                    <!-- Детали выполненной работы -->
+                    <div class="room-type-prices__item-params">
+                        <!-- Площадь -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-focus_2.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Площадь
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                12 м<sup>2</sup>
+                            </div>
+                        </div>
+                        <!-- Периметр -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-focus.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Периметр
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                14 м.п.
+                            </div>
+                        </div>
+                        <!-- Свет -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-brightness.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Свет
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                4000 K
+                            </div>
+                        </div>
+                        <!-- Контурная подсветка -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-brightness_2.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Контурная подсветка
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                3 м.п.
+                            </div>
+                        </div>
+
+                        <button>Рассчитать стоимость</button>
+                    </div>
+                </div>
+
+                <div class="room-type-prices__item" data-category="гостиная">
+                    <div class="room-type-prices__item-head">
+                        <div class="room-type-prices__image-container">
+                            <a
+                                class="room-type-prices__item-img"
+                                href="./images/gallery/satin_1.jpg"
+                                ><img
+                                    src="./images/gallery/satin_1.jpg"
+                                    alt="Фото потолка"
+                            /></a>
+                        </div>
+                        <h3>Натяжной потолок в гостинной</h3>
+                    </div>
+
+                    <!-- Детали выполненной работы -->
+                    <div class="room-type-prices__item-params">
+                        <!-- Площадь -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-focus_2.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Площадь
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                12 м<sup>2</sup>
+                            </div>
+                        </div>
+                        <!-- Периметр -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-focus.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Периметр
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                14 м.п.
+                            </div>
+                        </div>
+                        <!-- Свет -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-brightness.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Свет
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                4000 K
+                            </div>
+                        </div>
+                        <!-- Контурная подсветка -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-brightness_2.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Контурная подсветка
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                3 м.п.
+                            </div>
+                        </div>
+
+                        <button>Рассчитать стоимость</button>
+                    </div>
+                </div>
+
+                <div class="room-type-prices__item" data-category="спальня">
+                    <div class="room-type-prices__item-head">
+                        <div class="room-type-prices__image-container">
+                            <a
+                                class="room-type-prices__item-img"
+                                href="./images/gallery/satin_2.jpg"
+                                ><img
+                                    src="./images/gallery/satin_2.jpg"
+                                    alt="Фото потолка"
+                            /></a>
+                        </div>
+                        <h3>Натяжной потолок в спальне</h3>
+                    </div>
+
+                    <!-- Детали выполненной работы -->
+                    <div class="room-type-prices__item-params">
+                        <!-- Площадь -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-focus_2.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Площадь
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                12 м<sup>2</sup>
+                            </div>
+                        </div>
+                        <!-- Периметр -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-focus.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Периметр
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                14 м.п.
+                            </div>
+                        </div>
+                        <!-- Свет -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-brightness.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Свет
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                4000 K
+                            </div>
+                        </div>
+                        <!-- Контурная подсветка -->
+                        <div class="room-type-prices__param">
+                            <div class="room-type-prices__param-icon">
+                                <img
+                                    src="./images/icons/ico-brightness_2.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="room-type-prices__param-title">
+                                Контурная подсветка
+                            </div>
+                            <div class="room-type-prices__param-value">
+                                3 м.п.
+                            </div>
+                        </div>
+
+                        <button>Рассчитать стоимость</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="krismas-faq" class="faq container">
+            <div class="faq__container">
+                <div class="faq__label">
+                    <span class="faq__icon"
+                        ><img src="./images/icons/faq.png" alt=""
+                    /></span>
+                    В какой последовательности нужно производить ремонт? Сначала
+                    оклеивают обои или монтируют потолки?
+                    <div class="faq__arrow">‹</div>
+                </div>
+                <div class="faq__content">
+                    <p>
+                        В ремонте важна последовательность и строгая очередность
+                        действий, чтобы процесс изменения одной части интерьера
+                        не испортил результат другой. Поэтому обычно
+                        рекомендуется устанавливать натяжные потолки перед
+                        оклейкой обоев. Это требование некритично: грамотные
+                        специалисты установят потолки без пыли и грязи и не
+                        повредят оклеенные стены. Но в случае, если вы сначала
+                        оклеили стены, очень важно выдержать паузу не меньше 3
+                        дней до установки потолков, иначе при нагреве полотнищ
+                        есть риск, что под обоями появятся пузыри.
+                    </p>
+                </div>
+            </div>
+            <div class="faq__container">
+                <div class="faq__label">
+                    <span class="faq__icon"
+                        ><img src="./images/icons/faq.png" alt=""
+                    /></span>
+                    Какие светильники можно использовать с натяжными потолками?
+                    Как их устанавливают?
+                    <div class="faq__arrow">‹</div>
+                </div>
+                <div class="faq__content">
+                    <p>
+                        Натяжные потолки можно дополнять не набившими оскомину
+                        люстрами, а любыми удобными точечными светильниками.
+                        Заказчик выбирает и покупает светильники, дизайнер
+                        оказывает консультации по правильному и эстетичному
+                        освещению зон. Точечные светильники удобны именно
+                        направленным светом, над рабочим столом их может быть
+                        больше, чем над кроватью. Монтажники при установке
+                        потолка изготовят каркасы под светильники, при
+                        необходимости сделают проводку. После натяжения
+                        полотнищ, точечные светильники можно установить в
+                        сделанные под них каркасы.
+                    </p>
+                </div>
+            </div>
+            <div class="faq__container">
+                <div class="faq__label">
+                    <span class="faq__icon"
+                        ><img src="./images/icons/faq.png" alt=""
+                    /></span>
+                    Натяжные потолки «звездное небо» светятся сами или это
+                    флуоресцентный свет?
+                    <div class="faq__arrow">‹</div>
+                </div>
+                <div class="faq__content">
+                    <p>
+                        В потолки «звездное небо» вмонтированы тонкие волокна -
+                        световоды, как в оптоволоконном кабеле или декоративных
+                        волоконных светильниках. Свотоводы монтируются либо в
+                        само полотно потолка, либо между ним и потолочным
+                        перекрытием. Эффект мерцающих звезд необычайно красив.
+                        «звезды» можно разбросать по небу по своему вкусу, а
+                        можно и заказать точное воспроизведение созвездий в
+                        соответствии с астрономическим атласом.
+                    </p>
+                </div>
+            </div>
+            <div class="faq__container">
+                <div class="faq__label">
+                    <span class="faq__icon"
+                        ><img src="./images/icons/faq.png" alt=""
+                    /></span>
+                    Чем отличаются технологии шовных и бесшовных натяжных
+                    потолков?
+                    <div class="faq__arrow">‹</div>
+                </div>
+                <div class="faq__content">
+                    <p>
+                        Натяжные потолки бывают шовные и бесшовные. Разница не
+                        только в ширине полотнища, но и в технологии
+                        производства тканей. Ширина обычного полотна ПВХ
+                        составляет от 1,3 метра до 2,1 метра и для получения
+                        достаточной ширины конечного пололка полотнища
+                        сваривают. Сварка полотна происходит в производственном
+                        помещении на специальном оборудовании, ширина такого шва
+                        не превышает 2 мм. Сам шов гладкий и плоский, виден он
+                        только под определенным углом и не нарушает элегантности
+                        покрытия. Не приглядываясь специально, вы никогда не
+                        найдете место сварки потолочных полотен.
+                    </p>
+                    <p>
+                        Бесшовные потолки изготавливаются из немного другого
+                        материала, обычно это прорезиненная ткань. Ширина
+                        первоначального полотна примерно 5,1 метра и в
+                        большинстве помещений просто не требуется больше, чем 1
+                        полотнище. Такое полотно закрывает потолок полностью, не
+                        требуя дополнительных швов. Ткань бесшовных потолков
+                        нельзя сваривать, из такого полотна не получится сделать
+                        потолок для помещения шире, чем 5-6 метров по технологии
+                        сварных потолков. Сама ткань беднее по палитре фактур,
+                        бесшовные потолки не производятся в дизайнах структурных
+                        тканей: сатин, глянец, зеркальные потолки, замша и так
+                        далее. Зато полотно хорошо выдерживает окраску и во
+                        время эксплуатации его можно несколько раз окрашивать.
+                    </p>
+                </div>
+            </div>
+            <div class="faq__container">
+                <div class="faq__label">
+                    <span class="faq__icon"
+                        ><img src="./images/icons/faq.png" alt=""
+                    /></span>
+                    На каком расстоянии от потолка устанавливают натяжные? На
+                    сколько при этом уменьшится высота комнаты?
+                    <div class="faq__arrow">‹</div>
+                </div>
+                <div class="faq__content">
+                    <p>
+                        Современные технологии крепежа позволяют устанавливать
+                        потолки на расстоянии 3-4 см от потолочного перекрытия.
+                        В конкретном случае расстояние определяют по нижней
+                        точке потолочных перекрытий и наклону плит. Если хозяева
+                        хотят установить многоярусные натяжные потолки, они сами
+                        устанавливают желаемую высоту потолка в каждой
+                        конкретной зоне.
+                    </p>
+                </div>
+            </div>
+            <div class="faq__container">
+                <div class="faq__label">
+                    <span class="faq__icon"
+                        ><img src="./images/icons/faq.png" alt=""
+                    /></span>
+                    Придется ли выносить всю мебель из комнаты при монтаже
+                    потолков?
+                    <div class="faq__arrow">‹</div>
+                </div>
+                <div class="faq__content">
+                    <p>
+                        Приготавливая помещение к моменту установки, желательно
+                        спросить рабочих, будет ли мешать им мебель именно в
+                        этой комнате. Процесс установки не загрязнит ее, но
+                        передвигаться по комнате рабочие должны свободно. Чаще
+                        всего достаточно просто сдвинуть мебель в центр
+                        помещения, чтобы облегчить доступ к стенам. Консультанты
+                        обязательно проинструктируют хозяев, как лучше поступить
+                        с мебелью еще на этапе обмера потолка.
+                    </p>
+                </div>
+            </div>
+            <div class="faq__container">
+                <div class="faq__label">
+                    <span class="faq__icon"
+                        ><img src="./images/icons/faq.png" alt=""
+                    /></span>
+                    Зачем нужен плинтус?
+                    <div class="faq__arrow">‹</div>
+                </div>
+                <div class="faq__content">
+                    <p>
+                        При монтаже натяжных потолков используется специальный
+                        потолочный плинтус. Он скрывает зазор между потолком и
+                        стеной (около 8 мм). Кроме этого, плинтус придает
+                        потолку законченный и эстетически совершенный вид. В
+                        качестве плинтуса используют либо пластиковые заглушки,
+                        либо пенопластовый отечественный плинтус, который можно
+                        окрасить точно в цвет полотнища.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="lights container">
+            <div id="lightsSlider" class="lights-slider">
+                <div class="swiper-wrapper">
+                    <!-- Карточки светильников -->
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-ml1744">
+                            <div class="lights-slider__title">
+                                Светильник <strong>ML1744</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2020/07/ML1744_-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">44 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-ml176">
+                            <div class="lights-slider__title">
+                                Светильник <strong>ML176</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2020/07/ML176_-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">25 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-al519">
+                            <div class="lights-slider__title">
+                                Светильник <strong>AL519</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2020/07/AL519_-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">61 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-dl53">
+                            <div class="lights-slider__title">
+                                Светильник <strong>DL53</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/3-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">12 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-d0301-1">
+                            <div class="lights-slider__title">
+                                Светильник <strong>D0301-1</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/4-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">15 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-k1625">
+                            <div class="lights-slider__title">
+                                Светильник <strong>К1625</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/7-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">21 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-k1673">
+                            <div class="lights-slider__title">
+                                Светильник <strong>K1673</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/906-320x320.png"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">21 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-y1575">
+                            <div class="lights-slider__title">
+                                Светильник <strong>Y1575</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/10-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">30 руб</div>
+                        </a>
+                    </div>
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-k1119l-1">
+                            <div class="lights-slider__title">
+                                Светильник <strong>K1119L-1</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/11-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">23 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-kg5317">
+                            <div class="lights-slider__title">
+                                Светильник <strong>KG5317</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/13-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">24 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-d0301">
+                            <div class="lights-slider__title">
+                                Светильник <strong>D0301</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/15-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">21 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-d0801l-1">
+                            <div class="lights-slider__title">
+                                Светильник <strong>D0801L-1</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/16-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">21 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-al527">
+                            <div class="lights-slider__title">
+                                Светильник <strong>AL527</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/17-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">22 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-al601">
+                            <div class="lights-slider__title">
+                                Светильник <strong>AL601</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/18-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">19 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-al600">
+                            <div class="lights-slider__title">
+                                Светильник <strong>AL600</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/19-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">19 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-dl11">
+                            <div class="lights-slider__title">
+                                Светильник <strong>DL11</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/23-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">11 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/svetilnik-al5200">
+                            <div class="lights-slider__title">
+                                Светильник <strong>AL5200</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/24-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">218 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/?page_id=3594">
+                            <div class="lights-slider__title">
+                                Люстра LED <strong>1537/4+1</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/26-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">370 руб</div>
+                        </a>
+                    </div>
+
+                    <div class="lights-slider__item swiper-slide">
+                        <!-- Ссылка на страницу светильника -->
+                        <a href="https://krismas.by/?page_id=3596">
+                            <div class="lights-slider__title">
+                                Люстра LED <strong>A03-12</strong>
+                            </div>
+                            <div class="lights-slider__img">
+                                <img
+                                    src="https://krismas.by/wp-content/uploads/2019/09/27-1-300x266.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="lights-slider__price">412 руб</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="lights-slider__prev">
+                    <img src="./images/icons/arrow-left.svg" alt="" />
+                </div>
+                <div class="lights-slider__next">
+                    <img src="./images/icons/arrow-right.svg" alt="" />
+                </div>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    </body>
+</html>
