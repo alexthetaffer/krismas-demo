@@ -1,16 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
-}
 
 body {
     --primary-color: #ff2121;
-    font-family: "Open Sans", sans-serif;
 }
 
 h2.krismas-title {
@@ -18,11 +8,6 @@ h2.krismas-title {
     line-height: 41px;
     font-weight: 700;
     text-align: center;
-}
-
-.container {
-    max-width: 1135px;
-    margin: 0 auto;
 }
 
 /* Additional services block */
@@ -169,7 +154,6 @@ button.additional-services__btn.active
 
 .krismas-filter-buttons li {
     flex-grow: 1;
-    width: fit-content;
 }
 
 .krismas-filter-button {
@@ -221,7 +205,6 @@ button.additional-services__btn.active
 /* Ceiling types block*/
 
 .ceiling-types {
-    
 }
 
 .ceiling-types h3 {
@@ -414,7 +397,6 @@ button.ceiling-types__prev {
 
 .room-type-prices__buttons {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 4px;
     margin: 15px 0;
@@ -422,7 +404,6 @@ button.ceiling-types__prev {
 
 .room-type-prices__buttons li {
     list-style: none;
-    display: inline;
 }
 
 .room-type-prices__buttons button {
@@ -541,11 +522,10 @@ button.ceiling-types__prev {
 
 .faq__label {
     transition: background-color 0.3s ease;
-    padding: 5px 0;
     padding-left: 15px;
     cursor: pointer;
     background-color: #f8f8f8;
-    min-height: 50px;
+    height: 50px;
     display: flex;
     font-weight: 600;
     gap: 20px;
@@ -590,7 +570,7 @@ button.ceiling-types__prev {
 .faq__label.active + .faq__content {
     padding: 22px 15px 0px 15px;
     display: block;
-    max-height: 1000px;
+    max-height: 400px;
 }
 
 .faq__content p {
@@ -704,12 +684,6 @@ button.ceiling-types__prev {
     filter: brightness(0) invert(1);
 }
 
-@media screen and (max-width: 1250px) {
-    .ceiling-types {
-        overflow: hidden;
-    }
-}
-
 @media screen and (max-width: 980px) {
     .room-type-prices {
         font-size: 85%;
@@ -721,22 +695,16 @@ button.ceiling-types__prev {
 
     .krismas-filter-buttons {
         flex-wrap: wrap;
-        padding: 0 10px;
-        justify-content: center;
-    }
-
-    .krismas-filter-buttons li {
-        flex-wrap: wrap;
-        flex-grow: 0;
     }
 
     .portfolio-item img {
         width: 100%;
+        height: auto;
     }
 
     .portfolio-item {
         width: 100%;
-        max-height: 100%;
+        height: fit-content;
     }
 
     .faq__container {
